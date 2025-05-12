@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgb(32, 255, 255);
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* border: 2px solid black; */
+}
+.maincontainer>p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maincontainer>button{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(229, 255, 0);
+    border: none;
+    padding: 10px 0px;
+    border-radius: 12px;
+}
+.maincontainer>button:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+

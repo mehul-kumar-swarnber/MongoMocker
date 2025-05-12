@@ -1,0 +1,4 @@
+Express helps you set up routes to listen for requests.
+POST allows you to send data to the server.
+Mongoose helps you structure and save data in MongoDB.
+fetch() is how the front-end talks to the back-end.
